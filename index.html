@@ -1,14 +1,46 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <!-- Meta -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sindre Kristiansen | Portfolio</title>
     <meta name="description" content="Portfolio" />
+    <!-- End of Meta -->
+
+    <!-- Main Stylesheet -->
     <link rel="stylesheet" href="./assets/css/styles.css" />
+    <script src="./assets/js/script.js" defer></script>
+    <!-- End of Stylesheet -->
   </head>
   <body>
-    <header></header>
+    <!-- Header Section-->
+    <header class="header">
+      <nav class="nav content" aria-label="Main navigation">
+        <!-- Logo -->
+        <a class="logo" href="#home">S<span>.</span> Kristiansen</a>
+
+        <!-- Hamburger menu -->
+        <button
+          class="hamburger__toggle flex"
+          aria-label="Open menu"
+          aria-expanded="false"
+          aria-controls="nav__links"
+        >
+          ☰
+        </button>
+        <!-- End of Hamburger menu -->
+
+        <!-- Navigation links start here -->
+        <div class="nav__links" id="nav__links">
+          <a href="#projects">Projects</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <!-- Navigation links end here -->
+      </nav>
+    </header>
+    <!-- End of Header Section -->
     <main></main>
     <footer></footer>
   </body>
