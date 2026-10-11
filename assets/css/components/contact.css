@@ -1,0 +1,64 @@
+/* Contact Section */
+
+.contact {
+    background: var(--dark-green);
+    color: var(--primary-white);
+}
+
+/* Contact Grid */
+
+.contact__grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+}
+
+/* Contact Heading */
+
+.contact__grid h2 {
+    font-size: clamp(2.2rem, 9vw, 3.5rem);
+    line-height: 1.08;
+    letter-spacing: -0.055rem;
+    margin: 0 0 16px;
+}
+
+.contact__grid p {
+    color: #e0e8e1;
+    font-size: 0.95rem;
+    line-height: 1.8;
+    max-width: 420px;
+    margin: 0;
+}
+
+/* Contact Links */
+
+.contact__links {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+/* Buttons */
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: #e4ebe0;
+  color: var(--dark-green);
+  padding: 13px 19px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 0.88rem;
+  transition: transform 0.2s;
+}
+
+.light {
+    background: transparent;
+    color: #e4ebe0;
+    border: 1px solid #e4ebe0;
+}
+
+.button:hover {
+  transform: translateY(-2px);
+}
