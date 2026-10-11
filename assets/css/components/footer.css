@@ -1,0 +1,11 @@
+/* Footer */
+
+.footer {
+    background: #132019;
+    color: #c0ccc2;
+    padding-block: 26px;
+}
+
+.footer p {
+    font-size: 0.76rem;
+}
