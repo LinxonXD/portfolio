@@ -1,0 +1,12 @@
+:root {
+    /* Colors */
+    --dark-green: #1d2b24;
+    --light-green: #66736b;
+    --secondary-white: #f6f5ef;
+    --primary-white: #fffefa;
+    --primary-green: #456b56;
+    --primary-line: #dfe3da;
+
+    /* Fonts */
+    --primary-font: Arial, Helvetica, sans-serif;
+}
