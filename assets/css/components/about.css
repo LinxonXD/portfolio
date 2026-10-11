@@ -1,0 +1,66 @@
+/* About Section */
+
+.about {
+    background: #e9eee6;
+}
+
+/* About Grid */
+
+.about__grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+}
+
+/* About Heading */
+
+.about__grid h2 {
+    font-size: clamp(2rem, 8vw, 3rem);
+    line-height: 1.08;
+    letter-spacing: -0.055rem;
+    margin: 0;
+}
+
+/* About Content */
+
+.about__content {
+    flex-direction: column;
+    gap: 16px;
+}
+
+.about__content p {
+    color: var(--light-green);
+    font-size: 0.95rem;
+    line-height: 1.8;
+    margin: 0;
+}
+
+/* Skills */
+
+.skills {
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 8px;
+}
+
+.skills span {
+    background: #f0f2ec;
+    border: 1px solid #e4e7df;
+    border-radius: 30px;
+    padding: 8px 12px;
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+
+/* Responsive breakpoints */
+
+@media (min-width: 768px) {
+    .about__content {
+        gap: 20px;
+    }
+}
+
+@media (min-width: 1152px) {
+    .about__content p {
+        font-size: 1rem;
+    }
+}
